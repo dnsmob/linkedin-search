@@ -1,0 +1,32 @@
+html {
+  font: 12px helvetica, arial, sans;
+}
+
+body {
+  background: url(https://media1.tenor.com/images/2df94b2cbc32b465b9ec02451f6ffcd9/tenor.gif?itemid=8696160);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.holder {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex: 1;
+  margin: 0 0 20px 0;
+}
+
+pre {
+  white-space: normal;
+}

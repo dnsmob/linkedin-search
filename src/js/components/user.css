@@ -1,0 +1,28 @@
+li div.avatar {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin: 0 20px 0 0;
+}
+
+div.title {
+  flex: 1;
+  flex-direction: column;
+  border-bottom: 1px solid #aaa;
+}
+
+div.button {
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+}
+
+div.button button {
+  background: #fff;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #0073b1;
+  border-radius: 5px;
+}

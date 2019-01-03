@@ -1,0 +1,37 @@
+div.details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+}
+
+div.inner {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  background: #fff;
+  border: 1px solid #0073b1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+div.details div.avatar {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+div.details div.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
